@@ -1,0 +1,82 @@
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+
+
+.carousel-inner{
+    height: 524px;
+}
+
+.navbar{
+    background: rgb(0,84,214);
+    background: linear-gradient(90deg, rgba(0,84,214,1) 40%, rgba(221,51,51,1) 60%);
+}
+
+.header{
+    background: #dd3333;
+}
+
+.btn-primary , .bg-primary{
+    background-color:  rgba(221,51,51,1)!important ;
+    border-color: #00bcd4!important;
+}
+
+.btn-secondary , .bg-secondary{
+    background-color: #0054d6!important ;
+    border-color: #00bcd4!important;
+}
+
+.btn-third , .bg-third{
+    background-color:#e8ed10f5!important;
+    border-color: #00bcd4!important;
+}
+
+#card1   {
+    background-image: url("../assets/images/sub3.png")!important;
+    background-size: cover!important;
+    color:transparent!important;
+    background-color: transparent!important;
+}
+
+#card1:hover   {
+    background-image: none!important;
+    background-size: cover!important;
+    color:black!important;
+    background-color: white!important;
+    visibility: visible;
+}
+
+#card2   {
+    background-image: url("../assets/images/sub1.png")!important;
+    background-size: cover!important;
+    color:transparent!important;
+    background-color: transparent!important;
+}
+
+#card2:hover   {
+    background-image: none!important;
+    background-size: cover!important;
+    color:black!important;
+    background-color: white!important;
+    visibility: visible;
+}
+
+#card3   {
+    background-image: url("../assets/images/sub2.png")!important;
+    background-size: cover!important;
+    color:transparent!important;
+    background-color: transparent!important;
+}
+
+#card3:hover   {
+    background-image: none!important;
+    background-size: cover!important;
+    color:black!important;
+    background-color: white!important;
+    visibility: visible;
+}
