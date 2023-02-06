@@ -47,7 +47,7 @@
       </div>
     </nav>
      <!--carousel-->
-     <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+     <div id="demo" class="carousel  carousel-fade" data-ride="carousel">
         <!-- Indicateurs -->
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -56,14 +56,20 @@
         </ul>
 
         <!-- Carrousel -->
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="4000">
+        <div class="carousel-inner col-12-sm">
+          <div class="carousel-item active" data-interval="2000">
             <img src="./src/assets/images/wall1.png" alt="Carrousel slide 1" class="d-block w-100">
           </div>
           <div class="carousel-item" data-interval="2000">
             <img src="./src/assets/images/wall2.jpg" alt="Carrousel slide 2" class="d-block w-100">
           </div>
-          <div class="carousel-item" data-interval="1000">
+         <!-- <div class="carousel-item" data-interval="1000">
+            <img src="./src/assets/images/wall3.jpg" alt="Carrousel slide 3" class="d-block w-100">
+          </div>-->
+          <div class="carousel-item" data-interval="2000">
+            <img src="./src/assets/images/bracelet-pokemon-go-plus.jpg" alt="Carrousel slide 3" class="d-block w-100">
+          </div>
+          <div class="carousel-item" data-interval="2000">
             <img src="./src/assets/images/wall3.jpg" alt="Carrousel slide 3" class="d-block w-100">
           </div>
         </div>
@@ -305,12 +311,13 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
     <section class="py-5 border-bottom">
       <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-          <h2 class="fw-bolder">Customer testimonials</h2>
-          <p class="lead mb-0">Our customers love working with us</p>
+          <h2 class="fw-bolder">Livret d'Or</h2>
+          <p class="lead mb-0">
+            Nos clients adorent Pokémon Go</p>
         </div>
         <div class="row gx-5 justify-content-center">
           <div class="col-lg-6">
-            <!-- Testimonial 1-->
+            <!-- témoignage 1-->
             <div class="card mb-4">
               <div class="card-body p-4">
                 <div class="d-flex">
@@ -321,16 +328,15 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
                   </div>
                   <div class="ms-4">
                     <p class="mb-1">
-                      Thank you for putting together such a great product. We
-                      loved working with you and the whole team, and we will be
-                      recommending you to others!
+                      Merci d'avoir créé un si bon produit. Nous
+                      avons adoré travailler avec vous et toute l'équipe, et c'est avec plaisir que je recommande vos produits !
                     </p>
-                    <div class="small text-muted">- Client Name, Location</div>
+                    <div class="small text-muted">- Noah, Pouembout</div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Testimonial 2-->
+            <!-- témoignage 2-->
             <div class="card">
               <div class="card-body p-4">
                 <div class="d-flex">
@@ -341,11 +347,9 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
                   </div>
                   <div class="ms-4">
                     <p class="mb-1">
-                      The whole team was a huge help with putting things
-                      together for our company and brand. We will be hiring them
-                      again in the near future for additional work!
+                      Votre pokéboutique est géniale ! on y trouve même des cosplays taille XL ! Chapeau :3 !!
                     </p>
-                    <div class="small text-muted">- Client Name, Location</div>
+                    <div class="small text-muted">- Jean jaKévynne, Jakarta</div>
                   </div>
                 </div>
               </div>
@@ -355,39 +359,32 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
       </div>
     </section>
     <!-- Contact section-->
-    <section class="bg-light py-5">
-      <div class="container px-5 my-5 px-5">
+    <section class="bg-light d-flex col-12">
+      <div class=" px-1 my-5 px-1 col">
         <div class="text-center mb-5">
           <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
             <i class="bi bi-envelope"></i>
           </div>
-          <h2 class="fw-bolder">Get in touch</h2>
-          <p class="lead mb-0">We'd love to hear from you</p>
+          <h2 class="fw-bolder">Nous contacter</h2>
+          <p class="lead mb-0">Réponse garantie dans la demi-heure qui suit</p>
         </div>
         <div class="row gx-5 justify-content-center">
           <div class="col-lg-6">
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-              <!-- Name input-->
+            <form id="contactForm">
+              <!-- Nom-->
               <div class="form-floating mb-3">
                 <input
                   class="form-control"
                   id="name"
                   type="text"
-                  placeholder="Enter your name..."
+                  placeholder="Entrez votre nom"
                   data-sb-validations="required"
-                /><label for="name">Full name</label>
+                /><label for="name">Nom</label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">
-                  A name is required.
+                 Le nom est requis !
                 </div>
               </div>
-              <!-- Email address input-->
+              <!-- Email-->
               <div class="form-floating mb-3">
                 <input
                   class="form-control"
@@ -395,15 +392,15 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
                   type="email"
                   placeholder="name@example.com"
                   data-sb-validations="required,email"
-                /><label for="email">Email address</label>
+                /><label for="email">Email</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">
-                  An email is required.
+                  L'email est requis !
                 </div>
                 <div class="invalid-feedback" data-sb-feedback="email:email">
-                  Email is not valid.
+                  L'email est invalide !
                 </div>
               </div>
-              <!-- Phone number input-->
+              <!-- Tel-->
               <div class="form-floating mb-3">
                 <input
                   class="form-control"
@@ -411,9 +408,9 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
                   type="tel"
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
-                /><label for="phone">Phone number</label>
+                /><label for="phone">Numéro de téléphone</label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">
-                  A phone number is required.
+                  Numéro de tel requis !
                 </div>
               </div>
               <!-- Message input-->
@@ -431,42 +428,50 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
                   class="invalid-feedback"
                   data-sb-feedback="message:required"
                 >
-                  A message is required.
+                  merci de remplir le corps du message svp !
                 </div>
               </div>
-              <!-- Submit success message-->
-              <!---->
-              <!-- This is what your users will see when the form-->
-              <!-- has successfully submitted-->
+              <!-- Envoi de message-->
+
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
-                  <div class="fw-bolder">Form submission successful!</div>
-                  To activate this form, sign up at<br /><a
-                    href="https://startbootstrap.com/solution/contact-forms"
-                    >https://startbootstrap.com/solution/contact-forms</a
-                  >
+                  <div class="fw-bolder">Message envoyé avec succés ! </div>
                 </div>
               </div>
-              <!-- Submit error message-->
-              <!---->
-              <!-- This is what your users will see when there is-->
-              <!-- an error submitting the form-->
+           
+              <!---si message erreur-->
+      
               <div class="d-none" id="submitErrorMessage">
                 <div class="text-center text-danger mb-3">
                   Error sending message!
                 </div>
               </div>
-              <!-- Submit Button-->
+              <!-- Nous écrire-->
               <div class="d-grid">
                 <button
                   class="btn btn-primary btn-lg disabled"
                   id="submitButton"
                   type="submit"
                 >
-                  Submit
+                  Envoyer
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="bg-light d-flex col-12">
+      <div class=" px-1 my-5 px-1 col">
+        <div class="text-center mb-5">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+            <i class="bi bi-toggles2"></i>
+          </div>
+          <h2 class="fw-bolder">Nous sommes ici </h2>
+        </div>
+            <div class="row  justify-content-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461.5285594154962!2d166.43922281360352!3d-22.269333499950385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6c27e2693f1a32cb%3A0x7bf1b22af312dd00!2sNoum%C3%A9a%2098800%2C%20Nouvelle-Cal%C3%A9donie!5e0!3m2!1sfr!2sfr!4v1675680872663!5m2!1sfr!2sfr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -475,7 +480,7 @@ Il est gratuit à télécharger, mais a des achats intégrés pour des objets de
     <footer class="py-5 bg-dark">
       <div class="container px-5">
         <p class="m-0 text-center text-white">
-          Copyright &copy; Your Website 2022
+          Copyright &copy; PMKN GO - 2023
         </p>
       </div>
     </footer>
