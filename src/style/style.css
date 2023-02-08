@@ -1,4 +1,7 @@
-
+.fw-bold{
+    visibility: visible!important;
+    color: darkgoldenrod!important;
+}
 .text-muted{
     visibility: hidden;
 }
