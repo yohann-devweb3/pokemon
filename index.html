@@ -31,33 +31,31 @@
   <body>
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container px-5">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#!">
           <img
             style="width: 30%"
             src="./src/assets/images/logo.png"
             alt="Logo pokemon Go" /></a
-        ><button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        >  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#!"
                 >Accueil</a
               >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#apropos">A propos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contactForm">Contacts</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apropos">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactForm">Contacts</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -128,7 +126,7 @@
 
     <header class="header py-5">
       <div class="container px-5">
-        <div class="row  justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="text-center my-5">
               <h1 class="display-5 fw-bolder text-white mb-2">
@@ -140,7 +138,10 @@
                 d'échanger des Pokémon virtuels dans le monde réel en utilisant
                 leur smartphone.
               </p>
-              <div id="apropos" class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+              <div
+                id="apropos"
+                class="d-grid gap-3 d-sm-flex justify-content-sm-center"
+              >
                 <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features"
                   >A propos</a
                 ><a class="btn btn-outline-light btn-lg px-4" href="#!"
@@ -156,15 +157,15 @@
     <!-- Features section-->
     <section class="py-5 border-bottom" id="features">
       <div class="container px-5 my-5">
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="rounded-3 mb-3">   
+            <div class="rounded-3 mb-3">
               <img
                 src="./src/assets/images/pika.jpg"
                 alt="image-official-gameplay"
                 class="d-block w-100 image-official-gameplay"
               />
-          </div>
+            </div>
             <h2 class="h4 fw-bolder">Un univers unique !</h2>
             <p>
               Il est basé sur la franchise Pokemon très populaire, il y a des
@@ -176,14 +177,14 @@
             ></a>
           </div>
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="rounded-3 mb-3">   
-                <img
-                  src="./src/assets/images/Pokemon-Go-images-officielles.jpg"
-                  alt="image-official-gameplay"
-                  class="d-block w-50 image-official-gameplay"
-                />
+            <div class="rounded-3 mb-3">
+              <img
+                src="./src/assets/images/Pokemon-Go-images-officielles.jpg"
+                alt="image-official-gameplay"
+                class="d-block w-50 image-official-gameplay"
+              />
             </div>
-      
+
             <h2 class="h4 fw-bolder">Gameplay immersif !</h2>
             <p>
               Il est basé sur la réalité augmentée, ce qui permet aux joueurs de
@@ -195,13 +196,13 @@
             ></a>
           </div>
           <div class="col-lg-4">
-            <div class="rounded-3 mb-3">   
+            <div class="rounded-3 mb-3">
               <img
                 src="./src/assets/images/f2p.jpg"
                 alt="image-official-gameplay"
                 class="d-block w-75 image-official-gameplay"
               />
-          </div>
+            </div>
             <h2 class="h4 fw-bolder">Free To Play !</h2>
             <p>
               Il est gratuit à télécharger, mais a des achats intégrés pour des
@@ -218,7 +219,7 @@
           <h2 class="fw-bolder" id="services">Nos Services</h2>
           <p class="lead mb-0">Avec paiement en ligne sécurisé</p>
         </div>
-        <div class="row  justify-content-center">
+        <div class="row justify-content-center">
           <!-- Pricing card free-->
           <div class="col-lg-6 col-xl-4 text-left">
             <div id="card1" class="card mb-5 mb-xl-0">
@@ -236,36 +237,43 @@
                     ><strong>Vous seul (affiliation non dispo)</strong>
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de capture (+8%)
+                    <i class="bi bi-check text-primary"></i>Bonus de capture
+                    (+8%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de poussières d'étoiles
-                  </li>     
+                    <i class="bi bi-check text-primary"></i>Bonus de poussières
+                    d'étoiles
+                  </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Acces à au forum officiel
+                    <i class="bi bi-check text-primary"></i>Acces à au forum
+                    officiel
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-check text-primary"></i>Bonus de raid (+8%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>-5% sur achat d'un produit en boutique
+                    <i class="bi bi-check text-primary"></i>-5% sur achat d'un
+                    produit en boutique
                   </li>
                   <li class="mb-2 invisible">
                     <i class="bi bi-check text-primary"></i>Support dédié / SAV
-                  </li> 
+                  </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
+                  <a class="btn btn-outline-warning" href="#!"
+                    >Choisir cette offre</a
+                  >
                 </div>
               </div>
             </div>
           </div>
           <!-- Pricing card 2-->
-          <div class="col-lg-6 col-xl-4  text-left">
+          <div class="col-lg-6 col-xl-4 text-left">
             <div id="card2" class="card mb-5 mb-xl-0">
               <div class="card-body p-5">
-                <div class="small text-uppercase fw-bold golden">
-                  <i class="bi bi-star-fill text-warning"></i>Abonnement trimestriel
+                <div class="small text-uppercase fw-bold">
+                  <i class="bi bi-star-fill text-warning"></i>Abonnement
+                  trimestriel
                 </div>
                 <div class="mb-3">
                   <span class="display-4 fw-bold">$81</span
@@ -277,26 +285,32 @@
                     ><strong>Vous et un(e) ami(e) affilié(e)</strong>
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de capture (+15%)
+                    <i class="bi bi-check text-primary"></i>Bonus de capture
+                    (+15%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de poussières d'étoiles
-                  </li>     
+                    <i class="bi bi-check text-primary"></i>Bonus de poussières
+                    d'étoiles
+                  </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Acces à au forum officiel
+                    <i class="bi bi-check text-primary"></i>Acces à au forum
+                    officiel
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-check text-primary"></i>Bonus de raid (+15%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>-5% sur achat d'un produit en boutique
+                    <i class="bi bi-check text-primary"></i>-5% sur achat d'un
+                    produit en boutique
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-check text-primary"></i>Support dédié / SAV
-                  </li> 
+                  </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
+                  <a class="btn btn-outline-warning" href="#!"
+                    >Choisir cette offre</a
+                  >
                 </div>
               </div>
             </div>
@@ -318,26 +332,32 @@
                     ><strong>Vous et 5 ami(e)s affilié(e)s</strong>
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de capture (+22%)
+                    <i class="bi bi-check text-primary"></i>Bonus de capture
+                    (+22%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Bonus de poussières d'étoiles
-                  </li>     
+                    <i class="bi bi-check text-primary"></i>Bonus de poussières
+                    d'étoiles
+                  </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>Acces à au forum officiel
+                    <i class="bi bi-check text-primary"></i>Acces à au forum
+                    officiel
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-check text-primary"></i>Bonus de raid (+22%)
                   </li>
                   <li class="mb-2">
-                    <i class="bi bi-check text-primary"></i>-8% sur achat d'un produit en boutique
+                    <i class="bi bi-check text-primary"></i>-8% sur achat d'un
+                    produit en boutique
                   </li>
                   <li class="mb-2">
                     <i class="bi bi-check text-primary"></i>Support dédié / SAV
-                  </li> 
+                  </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
+                  <a class="btn btn-outline-warning" href="#!"
+                    >Choisir cette offre</a
+                  >
                 </div>
               </div>
             </div>
@@ -504,7 +524,9 @@
     <section class="bg-light d-flex col-12">
       <div class="px-1 my-5 px-1 col">
         <div class="text-center mb-5">
-          <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3">
+          <div
+            class="feature bg-secondary bg-gradient text-white rounded-3 mb-3"
+          >
             <i class="bi bi-toggles2"></i>
           </div>
           <h2 class="fw-bolder">Nous sommes ici</h2>
