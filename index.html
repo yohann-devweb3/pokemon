@@ -55,9 +55,9 @@
                 >Accueil</a
               >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#!">A propos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#!">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#apropos">A propos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactForm">Contacts</a></li>
           </ul>
         </div>
       </div>
@@ -128,7 +128,7 @@
 
     <header class="header py-5">
       <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
+        <div class="row  justify-content-center">
           <div class="col-lg-6">
             <div class="text-center my-5">
               <h1 class="display-5 fw-bolder text-white mb-2">
@@ -140,9 +140,9 @@
                 d'échanger des Pokémon virtuels dans le monde réel en utilisant
                 leur smartphone.
               </p>
-              <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+              <div id="apropos" class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                 <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features"
-                  >Get Started</a
+                  >A propos</a
                 ><a class="btn btn-outline-light btn-lg px-4" href="#!"
                   >En savoir plus</a
                 >
@@ -156,27 +156,15 @@
     <!-- Features section-->
     <section class="py-5 border-bottom" id="features">
       <div class="container px-5 my-5">
-        <div class="row gx-5">
+        <div class="row ">
           <div class="col-lg-4 mb-5 mb-lg-0">
-            <div
-              class="feature bg-secondary bg-gradient text-white rounded-3 mb-3"
-            >
-              <i class="bi bi-collection"></i>
-            </div>
-            <h2 class="h4 fw-bolder">Gameplay immersif !</h2>
-            <p>
-              Il est basé sur la réalité augmentée, ce qui permet aux joueurs de
-              combiner le monde réel et le monde virtuel de Pokemon, c'est une
-              expérience unique.
-            </p>
-            <a class="text-decoration-none" href="#!"
-              >Call to action<i class="bi bi-arrow-right"></i
-            ></a>
+            <div class="rounded-3 mb-3">   
+              <img
+                src="./src/assets/images/pika.jpg"
+                alt="image-official-gameplay"
+                class="d-block w-100 image-official-gameplay"
+              />
           </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="feature bg-third bg-gradient text-white rounded-3 mb-3">
-              <i class="bi bi-building"></i>
-            </div>
             <h2 class="h4 fw-bolder">Un univers unique !</h2>
             <p>
               Il est basé sur la franchise Pokemon très populaire, il y a des
@@ -184,23 +172,41 @@
               aimé depuis leur enfance.
             </p>
             <a class="text-decoration-none" href="#!"
-              >Call to action<i class="bi bi-arrow-right"></i
+              >En savoir plus<i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="rounded-3 mb-3">   
+                <img
+                  src="./src/assets/images/Pokemon-Go-images-officielles.jpg"
+                  alt="image-official-gameplay"
+                  class="d-block w-50 image-official-gameplay"
+                />
+            </div>
+      
+            <h2 class="h4 fw-bolder">Gameplay immersif !</h2>
+            <p>
+              Il est basé sur la réalité augmentée, ce qui permet aux joueurs de
+              combiner le monde réel et le monde virtuel de Pokemon, c'est une
+              expérience unique.
+            </p>
+            <a class="text-decoration-none" href="#!"
+              >En savoir plus<i class="bi bi-arrow-right"></i
             ></a>
           </div>
           <div class="col-lg-4">
-            <div
-              class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
-            >
-              <i class="bi bi-toggles2"></i>
-            </div>
+            <div class="rounded-3 mb-3">   
+              <img
+                src="./src/assets/images/f2p.jpg"
+                alt="image-official-gameplay"
+                class="d-block w-75 image-official-gameplay"
+              />
+          </div>
             <h2 class="h4 fw-bolder">Free To Play !</h2>
             <p>
               Il est gratuit à télécharger, mais a des achats intégrés pour des
               objets de jeu et des fonctionnalités supplémentaires.
             </p>
-            <a class="text-decoration-none" href="#!"
-              >Call to action<i class="bi bi-arrow-right"></i
-            ></a>
           </div>
         </div>
       </div>
@@ -209,15 +215,18 @@
     <section class="bg-light py-5 border-bottom">
       <div class="container px-5 my-5">
         <div class="text-center mb-5">
-          <h2 class="fw-bolder">Pay as you grow</h2>
-          <p class="lead mb-0">With our no hassle pricing plans</p>
+          <h2 class="fw-bolder" id="services">Nos Services</h2>
+          <p class="lead mb-0">Avec paiement en ligne sécurisé</p>
         </div>
-        <div class="row gx-5 justify-content-center">
+        <div class="row  justify-content-center">
           <!-- Pricing card free-->
           <div class="col-lg-6 col-xl-4">
             <div id="card1" class="card mb-5 mb-xl-0">
               <div class="card-body p-5">
-                <div class="small text-uppercase fw-bold text-muted">Free</div>
+                <div class="small text-uppercase fw-bold">
+                  <i class="bi bi-star-fill text-warning"></i>Gratuit
+                </div>
+      
                 <div class="mb-3">
                   <span class="display-4 fw-bold">$0</span
                   ><span class="text-muted">/ mo.</span>
@@ -251,7 +260,7 @@
                   </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choose plan</a>
+                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
                 </div>
               </div>
             </div>
@@ -261,7 +270,7 @@
             <div id="card2" class="card mb-5 mb-xl-0">
               <div class="card-body p-5">
                 <div class="small text-uppercase fw-bold">
-                  <i class="bi bi-star-fill text-warning"></i>Pro
+                  <i class="bi bi-star-fill text-warning"></i>Business
                 </div>
                 <div class="mb-3">
                   <span class="display-4 fw-bold">$9</span
@@ -297,7 +306,7 @@
                   </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choose plan</a>
+                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
                 </div>
               </div>
             </div>
@@ -306,8 +315,8 @@
           <div class="col-lg-6 col-xl-4">
             <div id="card3" class="card">
               <div class="card-body p-5">
-                <div class="small text-uppercase fw-bold text-muted">
-                  Enterprise
+                <div class="small text-uppercase fw-bold">
+                  <i class="bi bi-star-fill text-warning"></i>Ultime
                 </div>
                 <div class="mb-3">
                   <span class="display-4 fw-bold">$49</span
@@ -345,7 +354,7 @@
                   </li>
                 </ul>
                 <div class="d-grid">
-                  <a class="btn btn-outline-warning" href="#!">Choose plan</a>
+                  <a class="btn btn-outline-warning" href="#!">Choisir cette offre</a>
                 </div>
               </div>
             </div>
@@ -360,7 +369,7 @@
           <h2 class="fw-bolder">Livret d'Or</h2>
           <p class="lead mb-0">Nos clients adorent Pokémon Go</p>
         </div>
-        <div class="row gx-5 justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-lg-6">
             <!-- témoignage 1-->
             <div class="card mb-4">
@@ -417,7 +426,7 @@
           <h2 class="fw-bolder">Nous contacter</h2>
           <p class="lead mb-0">Réponse garantie dans la demi-heure qui suit</p>
         </div>
-        <div class="row gx-5 justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-lg-6">
             <form id="contactForm">
               <!-- Nom-->
@@ -512,7 +521,7 @@
     <section class="bg-light d-flex col-12">
       <div class="px-1 my-5 px-1 col">
         <div class="text-center mb-5">
-          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+          <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3">
             <i class="bi bi-toggles2"></i>
           </div>
           <h2 class="fw-bolder">Nous sommes ici</h2>
